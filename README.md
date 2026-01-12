@@ -192,7 +192,9 @@ Prints clear progress updates to the console
 ### 🖥️ Sample Console Output
 
 ========================================
+
 SALES ANALYTICS SYSTEM
+
 ========================================
 
 [1/10] Reading sales data...
