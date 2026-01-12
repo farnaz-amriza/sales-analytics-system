@@ -63,7 +63,7 @@ All third-party dependencies are listed in `requirements.txt`.
 Install them using:
 ```bash
 python -m pip install -r requirements.txt
-```bash
+```
 ⚠️ Note: Dependency installation should be done via the command line, not inside Python files.
 
 
