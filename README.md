@@ -4,7 +4,7 @@ Student Name: Amriza Farnaz
 Student ID: bitsom_ba_2507592
 Submission Date: 15/01/2026
 
-📌 Project Overview
+## 📌 Project Overview
 
 In this project, I built a complete sales analytics system that processes raw sales data, cleans and validates records, performs analytical computations, integrates external product data using an API, enriches transactions, and generates a comprehensive business report.
 
@@ -24,7 +24,7 @@ sales-analytics-system/
   └── requirements.txt
 
 
-### ⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 - Python 3.x
 - Standard Python libraries (`datetime`, `collections`, `os`)
@@ -34,8 +34,8 @@ sales-analytics-system/
 All external dependencies are listed in `requirements.txt`.
 
 
-### 🔧 Setup & Run Instructions
-## Step 1: Prerequisites
+## 🔧 Setup & Run Instructions
+### Step 1: Prerequisites
 
 Ensure Python 3.x is installed on your system.
 
@@ -44,7 +44,7 @@ Check Python version:
 python --version
 
 
-## Step 2: Install Required Dependencies
+### Step 2: Install Required Dependencies
 I installed all required third-party libraries using requirements.txt.
 
 python -m pip install -r requirements.txt
@@ -52,26 +52,26 @@ python -m pip install -r requirements.txt
 Dependencies are installed via the command line and not inside Python files.
 
 
-## Step 3: Project Folder Setup
+### Step 3: Project Folder Setup
 
 I created the following folders in the project root:
 
 data/
 output/
 
-## Step 4: Verify Input File
+### Step 4: Verify Input File
 
 Ensured the raw sales data file exists in the project root:
 
 sales_data.txt
 
-## Step 5: Run the Application
+### Step 5: Run the Application
 
 From the project root directory, run:
 
 python main.py
 
-## Step 6: Output Files Generated
+### Step 6: Output Files Generated
 
 After successful execution, the following files will be created:
 
@@ -79,7 +79,7 @@ File	Description
 data/enriched_sales_data.txt	API-enriched sales records
 output/sales_report.txt	Final formatted analytics report
 
-## Step 7: Error Handling
+### Step 7: Error Handling
 
 Missing input files are handled gracefully
 
@@ -88,8 +88,8 @@ API failures do not crash the program
 Invalid user inputs are safely handled
 
 
-### 🧩 Functional Breakdown
-## 🔹 Part 1: Data File Handling & Preprocessing
+## 🧩 Functional Breakdown
+### 🔹 Part 1: Data File Handling & Preprocessing
 
 Reads sales data with encoding handling
 
@@ -101,7 +101,7 @@ Validates transactions using business rules
 
 Produces clean, structured transaction dictionaries
 
-## 🔹 Part 2: Data Processing & Analytics
+### 🔹 Part 2: Data Processing & Analytics
 
 Implements analytical functions including:
 
@@ -119,7 +119,7 @@ Low-performing product detection
 
 All analytics are implemented using lists, dictionaries, and functions.
 
-## 🔹 Part 3: API Integration & Data Enrichment
+### 🔹 Part 3: API Integration & Data Enrichment
 
 Fetches product data from DummyJSON API
 
@@ -137,7 +137,7 @@ Match indicator
 
 Saves enriched sales data to a new file
 
-## 🔹 Part 4: Comprehensive Text Report
+### 🔹 Part 4: Comprehensive Text Report
 
 Generates a formatted report including:
 
@@ -157,7 +157,7 @@ API enrichment success summary
 
 📄 Output: output/sales_report.txt
 
-## 🔹 Part 5: Main Application
+### 🔹 Part 5: Main Application
 
 Provides a guided execution flow
 
@@ -169,7 +169,7 @@ Handles errors gracefully
 
 Prints clear progress updates to the console
 
-### 🖥️ Sample Console Output
+## 🖥️ Sample Console Output
 
 ========================================
 
@@ -211,7 +211,7 @@ Do you want to filter data? (y/n): n
 
 ========================================
 
-### 🧠 Design Highlights
+## 🧠 Design Highlights
 
 Modular architecture with clear separation of concerns
 Pipeline-based data processing
@@ -219,7 +219,7 @@ Defensive programming with try–except blocks
 Reusable analytics functions
 Industry-style reporting output
 
-### ✅ Conclusion
+## ✅ Conclusion
 
 This project demonstrates a full data analytics lifecycle, from raw data ingestion to enriched reporting, combining core Python programming, data analysis, API integration, and software design best practices.
 
