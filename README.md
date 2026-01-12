@@ -1,7 +1,11 @@
 # sales-analytics-system
+
 Sales Analytics System – End-to-End Data Pipeline
+
 Student Name: Amriza Farnaz
+
 Student ID: bitsom_ba_2507592
+
 Submission Date: 15/01/2026
 
 ## 📌 Project Overview
