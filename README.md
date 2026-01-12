@@ -10,27 +10,19 @@ This project implements a complete sales analytics system that processes raw sal
 
 The system follows a modular ETL-style architecture and is designed to be robust, scalable, and exam-compliant, with proper error handling and user interaction.
 
-🗂️ Project Structure
+🗂️ Repository Structure
 sales-analytics-system/
-│
-├── main.py                         # Main application (Part 5)
-├── sales_data.txt                  # Raw input sales data
-│
-├── utils/
-│   ├── __init__.py
-│   ├── file_handler.py             # File I/O, parsing, validation (Part 1)
-│   ├── data_processor.py           # Analytics & processing (Part 2)
-│   ├── api_handler.py              # API integration & enrichment (Part 3)
-│   └── report_generator.py         # Comprehensive text report (Part 4)
-│
-├── data/
-   └── sales_data.txt 
-│  └── enriched_sales_data.txt     # API-enriched output file
-│
-├── output/
-│   └── sales_report.txt            # Final analytics report
-├── requirements.txt
-└── README.md                       # Project documentation
+  ├── README.md
+  ├── main.py
+  ├── utils/
+  │   ├── file_handler.py
+  │   ├── data_processor.py
+  │   └── api_handler.py
+  ├── data/
+  │   └── sales_data.txt (provided)
+  ├── output/
+  └── requirements.txt
+
 
 ### 📦 Dependency Management
 
