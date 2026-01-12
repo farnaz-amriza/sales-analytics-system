@@ -190,6 +190,7 @@ Handles errors gracefully
 Prints clear progress updates to the console
 
 ### 🖥️ Sample Console Output
+
 ========================================
 SALES ANALYTICS SYSTEM
 ========================================
@@ -225,6 +226,7 @@ Do you want to filter data? (y/n): n
 ✓ Report saved to: output/sales_report.txt
 
 [10/10] Process Complete!
+
 ========================================
 
 ### 🧠 Design Highlights
