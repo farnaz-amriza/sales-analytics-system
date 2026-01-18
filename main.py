@@ -1,5 +1,5 @@
 """
-Main Application Script
+Main Application Script.
 Sales Analytics System
 """
 
