@@ -68,9 +68,9 @@ def main():
 
         apply_filter = input("\nDo you want to filter data? (y/n): ").strip().lower()
 
-        if choice not in ("y", "n"):
+        if apply_filter not in ("y", "n"):
             print("Invalid input. Proceeding without filters.")
-            choice = "n"
+            apply_filter = "n"
 
         if apply_filter == "y":
             selected_region = input("Enter region to filter: ").strip()
