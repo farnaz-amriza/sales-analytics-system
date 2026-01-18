@@ -1,3 +1,7 @@
+"""
+File: report_generator.py
+Purpose: Generates sales reports from cleaned transaction data
+"""
 from datetime import datetime
 from collections import defaultdict
 
