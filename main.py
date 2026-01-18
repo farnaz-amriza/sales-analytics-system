@@ -45,14 +45,14 @@ def main():
         # ------------------------------------------------
         # [1/10] READ SALES DATA
         # ------------------------------------------------
-        print("\n[1/10] Reading sales data...")
+        print("\n[1/10] Reading sales data....")
         raw_lines = read_sales_data("data/sales_data.txt")
         print(f"✓ Successfully read {len(raw_lines)} transactions")
 
         # ------------------------------------------------
         # [2/10] PARSE & CLEAN
         # ------------------------------------------------
-        print("\n[2/10] Parsing and cleaning data...")
+        print("\n[2/10] Parsing and cleaning data....")
         parsed_transactions = parse_transactions(raw_lines)
         print(f"✓ Parsed {len(parsed_transactions)} records")
 
