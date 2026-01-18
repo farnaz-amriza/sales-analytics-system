@@ -1,3 +1,7 @@
+"""
+File: file_handler.py
+Purpose: Handles file reading with encoding and error management
+"""
 ## Task 1.1: Read sales data with encoding handling ##
 def read_sales_data(filename):
     """
