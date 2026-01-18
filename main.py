@@ -68,6 +68,10 @@ def main():
 
         apply_filter = input("\nDo you want to filter data? (y/n): ").strip().lower()
 
+        if choice not in ("y", "n"):
+            print("Invalid input. Proceeding without filters.")
+            choice = "n"
+
         if apply_filter == "y":
             selected_region = input("Enter region to filter: ").strip()
             min_amt = float(input("Enter minimum transaction amount: "))
